@@ -56,6 +56,40 @@ body {
   height: 20px;
 }
 
+/* APPLY PAGE CSS */
+#apply-page .row p {
+  text-align: center;
+  color: #9e9e9e;
+  font-size: 18px;
+}
+
+#apply-page .row li {
+  color: #9e9e9e;
+  font-size: 18px;
+}
+
+#apply-page .row h3 {
+  text-align: center;
+}
+
+#apply-page .row:first-child {
+  width: 40rem;
+  margin: 0 auto;
+  height: 20rem;
+}
+
+#apply-page .row:first-child h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 10px;
+  padding: 60px 0 30px 0;
+}
+
+#apply-page .row:nth-child(2) .col {
+  padding: 0 50px 0 50px;
+}
+
 /* CONTACT FORM CSS */
 #contactForm {
   width: 600px;
@@ -78,8 +112,6 @@ body {
 #contactForm a:hover {
   color: rgba(0,0,0,.6);
 }
-
-
 
 #contactForm h1 {
   text-align: center;
