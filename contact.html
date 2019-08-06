@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+
     <!-- FUTURA FONT STLYESHEET -->
     <link rel="stylesheet" href="https://use.typekit.net/qwt1cwr.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <title>Cornell Business Analytics</title>
+    <title>Contact — Cornell Business Analytics</title>
   </head>
   <body>
     <!-- NAVBAR -->
@@ -37,7 +37,41 @@
 
     <!-- MAIN BODY -->
     <div class="container-fluid">
-      <h1>Contacts</h1>
+      <div id="contactForm">
+        <h1>Contact Us</h1>
+        <p>For client and recruitment inquiries, please contact us at</p>
+        <p><a href="mailto:cornellbusinessanalytics@gmail.com">cornellbusinessanalytics@gmail.com</a></p>
+        <hr>
+        <p>For other inquires, please fill the form below and we will respond to you as soon as possible.</p>
+        <!-- CONTACT FORM -->
+        <form>
+          <div class="form-group">
+            <div class="form-row">
+              <div class="col">
+                <label for="firstName">First Name</label>
+                <input type="text" class="form-control" id="firstName">
+              </div>
+              <div class="col">
+                <label for="lastName">Last Name</label>
+                <input type="text" class="form-control" id="lastName">
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Subject</label>
+            <input type="text" class="form-control" id="subject">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">SUBMIT</button>
+        </form>
+      </div>
     </div>
 
     <!-- Scripts -->
