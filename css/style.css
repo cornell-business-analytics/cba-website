@@ -3,13 +3,19 @@ body {
   background-color: #fafafa;
 }
 
+/* NAVBAR CSS */
 #navbarNav {
-  margin-left: 65%;
+  margin-left: 60%;
   font-size: 20px;
 }
 
 #navbarNav a {
-  padding: 0 15px 0 15px;
+  padding: 0 25px 0 25px;
+}
+
+#navbarNav a:hover {
+  color: #000;
+  transition: color .2s ease-out;
 }
 
 #particles-js {
@@ -18,6 +24,7 @@ body {
   z-index: -100;
 }
 
+/* MAIN PAGE CSS */
 .main-text {
   position: absolute;
   text-align: center;
@@ -49,6 +56,10 @@ body {
 
 .social-media a {
   padding: 0 10px 0 10px;
+}
+
+.social-media a:hover {
+  text-decoration: none;
 }
 
 .social-media img {
@@ -90,6 +101,15 @@ body {
 
 #about-page .row:first-child .col {
   padding: 0 26rem 0 26rem;
+}
+
+.modal-content {
+  background-color: transparent;
+  border: none;
+}
+
+.modal-backdrop.show {
+  opacity: .8;
 }
 
 /* CLIENT PAGE CSS */

@@ -48,8 +48,17 @@ function main() {
         }
         eboard_append_string +=
           '<div class="col">' +
-          '<img src=' + member.Image + ' alt=' + member.Name + '>' +
+          '<img src=' + member.Image + ' alt=' + member.Name + ' data-toggle="modal" data-target="#exampleModal">' +
           '<p>' + member.Name + '</p>' +
+          '<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">' +
+            '<div class="modal-dialog modal-dialog-centered" role="document">' +
+              '<div class="modal-content">' +
+              '</div>' +
+              '<div class="modal-body">' +
+                '<p>bruh</p>' +
+              '</div>' +
+            '</div>' +
+          '</div>' +
           '</div>'
         if (eboard_col_count < 3) {
           eboard_col_count += 1
