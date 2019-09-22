@@ -1,6 +1,6 @@
 function main() {
   // POPULATE MEMBER CARDS
-  $.getJSON("../assets/json/members.json", function(data) {
+  $.getJSON("https://cornell-business-analytics.github.io/cba-website/assets/json/members.json", function(data) {
     console.log(data)
     var eboard_num = 0
     var pm_num = 0
